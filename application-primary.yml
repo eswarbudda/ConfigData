@@ -1,3 +1,7 @@
+---
+spring:
+  application:
+    name: primary
 eureka:
   client:
     service-url:
@@ -5,3 +9,29 @@ eureka:
 
 server:
   port: 8010
+
+---
+
+spring:
+  application:
+    name: secondary
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka,http://localhost:8012/eureka
+
+server:
+  port: 8011
+
+---
+spring:
+  application:
+    name: third
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8011/eureka,http://localhost:8012/eureka
+server:
+  port: 8012
