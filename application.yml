@@ -1,6 +1,8 @@
 eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
 
 lucky-word: Irish,Rabbit's foot,whatever,default,profile
+server:
+  port: 8082
 ---
 spring:
   profiles: subject
