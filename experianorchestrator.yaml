@@ -1,0 +1,33 @@
+server:
+  port: 8082
+environment:
+gateway:
+  baseUri:
+  resourcepath:
+
+experian:
+  services:
+    -
+       name: addressupdate
+       baseUri: https://sandbox-us-api.experian.com/consumerservices/collections
+       resourcepath: /v1/address-update
+    -
+       name: socialsearch
+       baseUri: https://sandbox-us-api.experian.com/consumerservices/social-search
+       resourcepath: /v1/social-search
+
+
+additional-configuration:
+  social-search:
+    directCheck: Y
+    fraudShield: Y
+    demographics: Geocode and Phone
+  address-update:
+    directCheck: Y
+    fraudShield: Y
+  resellerInfo:
+    endUserName: CRAPIV2TC2
+  requestor:
+    subscriberCode: 2222222
+  permissiblepurpose:
+    type: 3F
