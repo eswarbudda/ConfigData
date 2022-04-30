@@ -1,0 +1,29 @@
+spring:
+  profiles: qa
+server:
+
+environment: qa
+gateway:
+  services:
+    -
+       name: experian
+       type: generic
+       baseUri: https://experianorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
+       resourcepath: /v1/experian/search
+    -
+      name: carpedata
+      type: generic
+      baseUri: https://carpedataorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
+      resourcepath: /v1/carpedata/search
+    -
+       name: optout
+       type: generic
+       baseUri: https://optoutfilter-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
+       resourcepath: /v1/optoutfilter
+    -
+       name: srm
+       type: nongeneric
+       baseUri: http://searchresultmanager-grpc-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com:80
+       resourcepath:
+
+
