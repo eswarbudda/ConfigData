@@ -1,9 +1,6 @@
 server:
   port: 8082
 environment: qa
-spring:
-  profiles:
-    active: qa
 gateway:
   baseUri:
   resourcepath:
