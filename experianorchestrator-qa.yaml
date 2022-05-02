@@ -10,11 +10,11 @@ experian:
     -
        name: addressupdate
        baseUri: https://sandbox-us-api.experian.com/consumerservices/collections
-       resourcepath: /v1/address-update2
+       resourcepath: /v1/address-update
     -
        name: socialsearch
        baseUri: https://sandbox-us-api.experian.com/consumerservices/social-search
-       resourcepath: /v1/social-search2
+       resourcepath: /v1/social-search
 
 
 additional-configuration:
