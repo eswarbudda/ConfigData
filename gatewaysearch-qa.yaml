@@ -26,4 +26,6 @@ gateway:
        baseUri: http://searchresultmanager-grpc-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com:80
        resourcepath:
 
-
+jwt:
+  config:
+    proxy: dummy-proxy
