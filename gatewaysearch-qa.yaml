@@ -26,4 +26,4 @@ gateway:
 
 jwt:
   config:
-    jwtproxy: dummy-proxy
+    jwtproxy:
