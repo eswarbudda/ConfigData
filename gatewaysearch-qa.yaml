@@ -7,17 +7,17 @@ gateway:
        name: experian
        type: generic
        baseUri: https://experianorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-       resourcepath: /v1/experian/search
+       resourcepath: /v1/experian/search2
     -
       name: carpedata
       type: generic
       baseUri: https://carpedataorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-      resourcepath: /v1/carpedata/search
+      resourcepath: /v1/carpedata/search2
     -
        name: optout
        type: generic
        baseUri: https://optoutfilter-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-       resourcepath: /v1/optoutfilter
+       resourcepath: /v1/optoutfilter2
     -
        name: srm
        type: nongeneric
@@ -26,4 +26,4 @@ gateway:
 
 jwt:
   config:
-    jwtproxy:
+    jwtproxy: dummy-proxy
