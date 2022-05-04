@@ -1,6 +1,6 @@
 msg: experian-msg-qa
 server:
-  port: 8085
+  port: 8082
 environment: qa
 gateway:
   baseUri:
