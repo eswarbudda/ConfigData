@@ -1,4 +1,4 @@
-msg: experian-msg1
+msg: experian-msg2
 server:
   port: 8085
 environment: qa
@@ -11,11 +11,11 @@ experian:
     -
        name: addressupdate
        baseUri: https://sandbox-us-api.experian.com/consumerservices/collections
-       resourcepath: /v1/address-update
+       resourcepath: /v1/address-update2
     -
        name: socialsearch
        baseUri: https://sandbox-us-api.experian.com/consumerservices/social-search
-       resourcepath: /v1/social-search
+       resourcepath: /v1/social-search2
 
 
 additional-configuration:
