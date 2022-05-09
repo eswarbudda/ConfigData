@@ -1,4 +1,4 @@
-msg: gateway message3 qa
+msg: gateway message4 qa
 server:
   port: 8086
 environment: qa
@@ -13,12 +13,12 @@ gateway:
       name: carpedata
       type: generic
       baseUri: https://carpedataorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-      resourcepath: /v1/carpedata/search2
+      resourcepath: /v1/carpedata/search
     -
        name: optout
        type: generic
        baseUri: https://optoutfilter-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-       resourcepath: /v1/optoutfilter2
+       resourcepath: /v1/optoutfilter
     -
        name: srm
        type: nongeneric
