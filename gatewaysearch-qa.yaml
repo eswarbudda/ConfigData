@@ -1,4 +1,4 @@
-msg: gateway message5 qa
+msg: gateway message6 qa
 server:
   port: 8085
 environment: qa
@@ -8,17 +8,17 @@ gateway:
        name: experian
        type: generic
        baseUri: https://experianorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-       resourcepath: /v1/experian/search2
+       resourcepath: /v1/experian/search
     -
       name: carpedata
       type: generic
       baseUri: https://carpedataorchestrator-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-      resourcepath: /v1/carpedata/search2
+      resourcepath: /v1/carpedata/search
     -
        name: optout
        type: generic
        baseUri: https://optoutfilter-qa.plexus-ras1-ppuse1.5771.aws.thomsonreuters.com
-       resourcepath: /v1/optoutfilter2
+       resourcepath: /v1/optoutfilter
     -
        name: srm
        type: nongeneric
