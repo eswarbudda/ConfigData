@@ -1,6 +1,6 @@
 msg: gateway message5 qa
 server:
-  port: 8086
+  port: 8085
 environment: qa
 gateway:
   services:
